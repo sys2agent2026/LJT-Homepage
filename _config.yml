@@ -1,0 +1,67 @@
+# _config.yml
+# Welcome to the Junteng Liu Academic Homepage!
+# This is the main configuration file for your Jekyll site.
+
+# Site settings
+title: Junteng Liu
+email: jliugi@connect.ust.hk
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal homepage of Junteng Liu, PhD Candidate at HKUST NLP Group
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sys2agent2026.github.io/LJT-Homepage" # the base hostname & protocol for your site
+twitter_username: junteng88716710
+github_username: Vicent0205
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/plugins/
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Junteng Liu"
+
+  - scope:
+      path: "_publications"
+      type: "publications"
+    values:
+      layout: "publication"
+      author: "Junteng Liu"
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  enable_gfm: true
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
