@@ -1,0 +1,73 @@
+name: Junteng Liu
+email: jliugi@connect.ust.hk
+title: PhD Candidate
+github: Vicent0205
+twitter: junteng88716710
+google_scholar: https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate
+bio: |
+  Junteng Liu is a first-year PhD candidate at the HKUST NLP Group, where he is advised by Professor Junxian He. His research focuses on natural language processing and machine learning, with specific interests in LLM Reasoning and Reinforcement Learning, Hallucination in Vision-Language Models (VLM), and LLM Truthfulness and Interpretability.
+  
+  Prior to his PhD, Junteng graduated from Shanghai Jiao Tong University (SJTU) in June 2024 with a B.Eng. degree. He has also held research internships at MINIMAX (February 2025 - Present), Tencent WXG (June 2024 - September 2024), and Shanghai AI Lab (June 2023 - December 2023).
+  
+  Junteng is the recipient of the Zhiyuan Honor Scholarship from Shanghai Jiao Tong University.
+
+# Education
+education:
+  - degree: Ph.D. in Computer Science
+    institution: Hong Kong University of Science and Technology
+    period: 2024-Present
+    advisor: Professor Junxian He
+    description: HKUST NLP Group
+  
+  - degree: B.Eng.
+    institution: Shanghai Jiao Tong University
+    period: 2020-2024
+    description: Graduated with Zhiyuan Honor Scholarship
+
+# Experience
+experience:
+  - position: Research Intern
+    institution: MINIMAX
+    period: February 2025 - Present
+  
+  - position: Research Intern
+    institution: Tencent WXG
+    period: June 2024 - September 2024
+    advisor: Zifei Shan
+  
+  - position: Research Intern
+    institution: Shanghai AI Lab
+    period: June 2023 - December 2023
+    advisor: Prof. Yu Cheng
+
+# Research Interests
+research_interests:
+  - LLM Reasoning and Reinforcement Learning
+  - Hallucination in Vision-Language Models (VLM)
+  - LLM Truthfulness and Interpretability
+  - Natural Language Processing
+  - Machine Learning
+
+# Skills
+skills:
+  - Natural Language Processing
+  - Machine Learning
+  - Deep Learning
+  - Large Language Models
+  - Vision-Language Models
+  - Reinforcement Learning
+  - Python
+  - PyTorch
+
+# Awards
+awards:
+  - name: Zhiyuan Honor Scholarship
+    institution: Shanghai Jiao Tong University
+    year: 2024
+
+# Contact
+contact:
+  email: jliugi@connect.ust.hk
+  github: https://github.com/Vicent0205
+  google_scholar: https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate
+  twitter: https://twitter.com/junteng88716710
