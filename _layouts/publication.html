@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+{% include header.html %}
+<div class="container">
+    <h1>{{ page.title }}</h1>
+    <p><strong>Date:</strong> {{ page.date }}</p>
+    <p><strong>Venue:</strong> {{ page.venue }}</p>
+    <p><strong>Type:</strong> {{ page.type }}</p>
+    <h2>Authors</h2>
+    <p>{{ page.authors | join: ", " }}</p>
+    {% if page.first_author %}
+    <p><strong>Note:</strong> First author</p>
+    {% endif %}
+    {% if page.links %}
+    <h2>Links</h2>
+    <ul>
+    {% for link in page.links %}
+        <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    <hr>
+    {{ content }}
+</div>
+{% include footer.html %}
+</body>
+</html>
