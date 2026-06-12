@@ -1,0 +1,116 @@
+/* Main CSS for Junteng Liu's Homepage */
+
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.sidebar {
+    padding: 20px 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 5px 0;
+}
+
+.publication {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.publication:last-child {
+    border-bottom: none;
+}
+
+.publication h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.publication .authors {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.publication .venue {
+    font-style: italic;
+    color: #888;
+}
+
+.publication .links {
+    margin-top: 10px;
+}
+
+.publication .links a {
+    margin-right: 10px;
+}
+
+.first-author {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.about-photo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    background: #f0f0f0;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.contact-links a {
+    margin-right: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        padding-top: 50px;
+    }
+    
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
