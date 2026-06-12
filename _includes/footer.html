@@ -1,0 +1,12 @@
+<footer>
+    <div class="container">
+        <p class="text-muted">
+            {{ site.data.navigation.footer.text }}
+        </p>
+        <ul class="list-inline">
+            {% for link in site.data.navigation.footer.links %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</footer>
