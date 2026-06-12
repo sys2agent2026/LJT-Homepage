@@ -1,0 +1,27 @@
+# Navigation menu configuration
+menu:
+  - title: Home
+    url: /index.html
+    weight: 1
+  - title: About
+    url: /about/
+    weight: 2
+  - title: Publications
+    url: /publications/
+    weight: 3
+  - title: Contact
+    url: /contact/
+    weight: 4
+
+# Footer configuration
+footer:
+  text: "© 2024-2025 Junteng Liu. Powered by GitHub Pages."
+  links:
+    - title: Email
+      url: mailto:jliugi@connect.ust.hk
+    - title: GitHub
+      url: https://github.com/Vicent0205
+    - title: Google Scholar
+      url: https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate
+    - title: Twitter
+      url: https://twitter.com/junteng88716710
