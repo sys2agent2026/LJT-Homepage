@@ -1,0 +1,108 @@
+/* Main CSS - Minimal Mistakes Academic Theme */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #3a3a3a;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1em;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.page__content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.masthead {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+}
+
+.masthead__inner-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.greedy-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.visible-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.visible-links li {
+  margin-left: 2rem;
+}
+
+.visible-links a {
+  color: #3a3a3a;
+  font-size: 1rem;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline li {
+  margin-bottom: 1rem;
+}
+
+.page__footer {
+  background-color: #f5f5f5;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.page__footer-copyright {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .page__content {
+    padding: 1rem;
+  }
+  
+  .visible-links {
+    display: none;
+  }
+  
+  .greedy-nav__toggle {
+    display: block;
+  }
+}
