@@ -1,0 +1,100 @@
+{
+  "name": "Junteng Liu",
+  "short_name": "JL",
+  "affiliation": "HKUST NLP Group",
+  "links": {
+    "email": "mailto:jliugi@connect.ust.hk",
+    "github": "https://github.com/Vicent0205",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate",
+    "twitter": "https://x.com/junteng88716710"
+  },
+  "education": [
+    {
+      "institution": "Hong Kong University of Science and Technology",
+      "department": "Computer Science",
+      "degree": "Ph.D.",
+      "start": "2024-09",
+      "end": null,
+      "advisor": "Junxian He"
+    },
+    {
+      "institution": "Shanghai Jiao Tong University",
+      "department": "Computer Science",
+      "degree": "B.Eng.",
+      "start": "2020-09",
+      "end": "2024-06",
+      "advisor": null
+    }
+  ],
+  "experience": [
+    {
+      "institution": "MINIMAX",
+      "position": "Research Intern",
+      "start": "2025-02",
+      "end": null
+    },
+    {
+      "institution": "Tencent WXG",
+      "position": "Research Intern",
+      "start": "2024-06",
+      "end": "2024-09",
+      "advisor": "Zifei Shan"
+    },
+    {
+      "institution": "Shanghai AI Lab",
+      "position": "Research Intern",
+      "start": "2023-06",
+      "end": "2023-12",
+      "advisor": "Yu Cheng"
+    }
+  ],
+  "publications": [
+    {
+      "title": "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond",
+      "year": 2025,
+      "authors": ["Junteng Liu", "Yuanxiang Fan", "Zhuo Jiang", "Han Ding", "Yongyi Hu", "Chi Zhang", "Yiqi Shi", "Shitong Weng", "Aili Chen", "Shiqi Chen", "Yunan Huang", "Mozhi Zhang", "Pengyu Zhao", "Junjie Yan", "Junxian He"],
+      "first_author": true
+    },
+    {
+      "title": "On the Perception Bottleneck of VLMs for Chart Understanding",
+      "year": 2025,
+      "authors": ["Junteng Liu", "Weihao Zeng", "Xiwen Zhang", "Yijun Wang", "Zifei Shan", "Junxian He"],
+      "first_author": true
+    },
+    {
+      "title": "On the Universal Truthfulness Hyperplane Inside LLMs",
+      "year": 2024,
+      "authors": ["Junteng Liu", "Shiqi Chen", "Yu Cheng", "Junxian He"],
+      "first_author": true,
+      "venue": "EMNLP 2024"
+    },
+    {
+      "title": "In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation",
+      "year": 2024,
+      "authors": ["Shiqi Chen", "Miao Xiong", "Junteng Liu", "Zhengxuan Wu", "Teng Xiao", "Siyang Gao", "Junxian He"],
+      "first_author": false,
+      "venue": "ICML 2024"
+    },
+    {
+      "title": "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models",
+      "year": 2023,
+      "authors": ["Yuzhen Huang", "Yuzhuo Bai", "Zhihao Zhu", "Junlei Zhang", "Jinghan Zhang", "Tangjun Su", "Junteng Liu", "Chuancheng Lv", "Yikai Zhang", "Jiayi Lei", "Yao Fu", "Maosong Sun", "Junxian He"],
+      "first_author": false,
+      "venue": "NeurIPS 2023"
+    },
+    {
+      "title": "Composing Parameter-Efficient Modules with Arithmetic Operations",
+      "year": 2023,
+      "authors": ["Jinghan Zhang", "Shiqi Chen", "Junteng Liu", "Junxian He"],
+      "first_author": false,
+      "venue": "NeurIPS 2023"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Zhiyuan Honor Scholarship",
+      "year": null,
+      "institution": "Shanghai Jiao Tong University"
+    }
+  ]
+}
