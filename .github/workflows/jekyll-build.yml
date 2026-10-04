@@ -7,10 +7,7 @@ on:
     branches: [main]
     types:
       - completed
-
-  # Temporary: allow manual builds to validate the site
-  workflow_dispatch:
-
+      
 permissions:
   contents: read
 
