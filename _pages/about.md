@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
 I am a first-year PhD candidate at the HKUST NLP Group, advised by Professor Junxian He. My research focuses on natural language processing and machine learning.
 
 Research Interests
