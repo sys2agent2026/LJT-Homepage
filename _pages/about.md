@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD candidate at the [HKUST NLP Group](https://hkustnlp.github.io/), advised by [Professor Junxian He](https://jxhe.github.io/). My research focuses on natural language processing and machine learning.
+I am a first-year PhD candidate at the HKUST NLP Group, advised by Professor Junxian He. My research focuses on natural language processing and machine learning.
 
 Research Interests
 ======
@@ -34,11 +34,11 @@ Research Experience
 Publications
 ======
 
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endul}</ul>
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
 
-See the full list on the [Publications]({{ base_path }}/publications/) page.
+A full list is also available on the [Publications]({{ base_path }}/publications/) page.
 
 {% if site.author.googlescholar %}
 You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
